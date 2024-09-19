@@ -1,0 +1,6 @@
+|sysinput_init
+|sysinput_add_key
+|sysinput_add_button
+|sysinput_get
+|sysinput_get_pressed
+|sysinput_get_released

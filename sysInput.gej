@@ -1,0 +1,90 @@
+{
+	"name": "sysInput",
+	"folder": "gm82",
+	"version": "1.0",
+	"author": "DFelipehDEV",
+	"date": "19/09/2024",
+	"license": "MIT",
+	"description": "Input System extension.",
+	"helpfile": "",
+	"hidden": false,
+	"dependencies": [],
+	"files": [
+		{
+			"filename": "input.gml",
+			"origname": "src\\input.gml",
+			"kind": 2,
+			"init": "",
+			"final": "",
+			"functions": [
+				{
+					"name": "sysinput_init",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "sysinput_init()",
+					"hidden": false,
+					"argtypes": null,
+					"returntype": 2
+				},
+				{
+					"name": "sysinput_add_key",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "sysinput_add_key(action, key)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "sysinput_add_button",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "sysinput_add_button(action, button)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "sysinput_get",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "sysinput_get(action)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "sysinput_get_pressed",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "sysinput_get_pressed(action)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "sysinput_get_released",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "sysinput_get_released(action)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				}
+			],
+			"constants": []
+		}
+	]
+}
