@@ -18,13 +18,16 @@ sysinput_add_key("UP", ord("W"));
 
 sysinput_add_key("DOWN", vk_down);
 sysinput_add_key("DOWN", ord("S"));
+
+sysinput_add_key("RUN", vk_shift);
+sysinput_add_button("RUN", 0);
 #define Draw_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
 action_id=603
 applies_to=self
 */
-/// Draw
+/// Draw input
 
 var i;
 var key;

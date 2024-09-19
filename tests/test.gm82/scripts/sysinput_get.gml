@@ -8,10 +8,11 @@ var i;
 for (i = 0; i < ds_list_size(_value); i += 1) {
     var _keyvalue, _keyState;
     _keyvalue = ds_list_find_value(_value, i);
-    if (_keyvalue < 190)
+    if (_keyvalue < 256)
         _keyState = keyboard_check(_keyvalue);
-    else
-        _keyState = joystick_check_button(0, _keyvalue - 105);
+    else {
+        _keyState = joystick_check_button(0, _keyvalue - 256);
+    }
 
     // attempt again if its not being pressed
     if (_keyState == false)
