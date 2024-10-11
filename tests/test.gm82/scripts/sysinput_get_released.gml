@@ -14,7 +14,7 @@ for (i = 0; i < ds_list_size(_value); i += 1) {
         _keyState = joystick_check_button_released(0, _keyvalue - 256);
 
     // attempt again if its not being pressed
-    if (_keyState == false)
+    if (!_keyState)
         continue;
     else
         return _keyState;
