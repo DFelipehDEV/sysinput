@@ -1,11 +1,11 @@
 {
 	"name": "sysInput",
 	"folder": "gm82",
-	"version": "1.0",
+	"version": "0.1",
 	"author": "DFelipehDEV",
-	"date": "19/09/2024",
+	"date": "17/02/2025",
 	"license": "MIT",
-	"description": "Input System extension.",
+	"description": "Input System extension. Depends on gm82joy",
 	"helpfile": "",
 	"hidden": false,
 	"dependencies": [],
@@ -24,6 +24,19 @@
 					"helpline": "sysinput_init()",
 					"hidden": false,
 					"argtypes": null,
+					"returntype": 2
+				},
+				{
+					"name": "sysinput_add_axes",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "sysinput_add_axes(action, axe, negative)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2,
+						2
+					],
 					"returntype": 2
 				},
 				{
@@ -62,6 +75,18 @@
 					"returntype": 2
 				},
 				{
+					"name": "sysinput_get_axis",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "sysinput_get_axis(negative_action, positive_action)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
 					"name": "sysinput_get_pressed",
 					"extname": "",
 					"calltype": 2,
@@ -84,7 +109,48 @@
 					"returntype": 2
 				}
 			],
-			"constants": []
+			"constants": [
+				{
+					"name": "gp_axislh",
+					"value": "0",
+					"hidden": false
+				},
+				{
+					"name": "gp_axislv",
+					"value": "1",
+					"hidden": false
+				},
+				{
+					"name": "gp_axisrh",
+					"value": "2",
+					"hidden": false
+				},
+				{
+					"name": "gp_axisrv",
+					"value": "3",
+					"hidden": false
+				},
+				{
+					"name": "gp_face1",
+					"value": "0",
+					"hidden": false
+				},
+				{
+					"name": "gp_face2",
+					"value": "1",
+					"hidden": false
+				},
+				{
+					"name": "gp_face3",
+					"value": "2",
+					"hidden": false
+				},
+				{
+					"name": "gp_face4",
+					"value": "3",
+					"hidden": false
+				}
+			]
 		}
 	]
 }

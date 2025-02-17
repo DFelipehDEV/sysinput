@@ -8,3 +8,5 @@ sysinput_get_pressed
 sysinput_get_released
 sysinput_add_button
 
+sysinput_add_axes
+sysinput_get_axis
