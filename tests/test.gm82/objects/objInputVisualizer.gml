@@ -25,6 +25,7 @@ sysinput_add_axes("DOWN", 1, false);
 
 sysinput_add_key("RUN", vk_shift);
 sysinput_add_button("RUN", 0);
+sysinput_add_button("RUN", gp_shoulderr);
 
 // GamePad only
 sysinput_add_axes("MOVE_CAM_LEFT", 2, true);

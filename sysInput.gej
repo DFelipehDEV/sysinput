@@ -1,9 +1,9 @@
 {
 	"name": "sysInput",
 	"folder": "gm82",
-	"version": "0.1",
+	"version": "0.2",
 	"author": "DFelipehDEV",
-	"date": "17/02/2025",
+	"date": "20/02/2025",
 	"license": "MIT",
 	"description": "Input System extension. Depends on gm82joy",
 	"helpfile": "",
@@ -148,6 +148,66 @@
 				{
 					"name": "gp_face4",
 					"value": "3",
+					"hidden": false
+				},
+				{
+					"name": "gp_shoulderlb",
+					"value": "4",
+					"hidden": false
+				},
+				{
+					"name": "gp_shoulderrb",
+					"value": "5",
+					"hidden": false
+				},
+				{
+					"name": "gp_select",
+					"value": "6",
+					"hidden": false
+				},
+				{
+					"name": "gp_start",
+					"value": "7",
+					"hidden": false
+				},
+				{
+					"name": "gp_stickl",
+					"value": "8",
+					"hidden": false
+				},
+				{
+					"name": "gp_stickr",
+					"value": "9",
+					"hidden": false
+				},
+				{
+					"name": "gp_padu",
+					"value": "10",
+					"hidden": false
+				},
+				{
+					"name": "gp_padd",
+					"value": "11",
+					"hidden": false
+				},
+				{
+					"name": "gp_padl",
+					"value": "12",
+					"hidden": false
+				},
+				{
+					"name": "gp_padr",
+					"value": "13",
+					"hidden": false
+				},
+				{
+					"name": "gp_shoulderl",
+					"value": "14",
+					"hidden": false
+				},
+				{
+					"name": "gp_shoulderr",
+					"value": "15",
 					"hidden": false
 				}
 			]
